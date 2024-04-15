@@ -1,3 +1,13 @@
+<style>
+    .member-img {
+        width: 150px; /* Tamaño deseado para las imágenes */
+        height: 150px; /* Tamaño deseado para las imágenes */
+        border-radius: 50%; /* Forma circular */
+        object-fit: cover; /* Para que la imagen se ajuste al contenedor sin perder la proporción */
+    }
+</style>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -94,75 +104,79 @@
 </section>
 <!-- tercera seccion -->
 <section id="proyectos" class="section_info container-fluid"> 
-    <div class="container-fluid">      
-        <div class="col-sm-6">
-            <h2>Dominio de Software</h2>
-            <div class="each-skills">
-                <div class="candidatos">
-                    <div class="parcial">
-                        <div class="info">
-                            <div class="nome">Fortran</div>
-                            <div class="percentagem-num">96%</div>
-                        </div>
-                        <div class="progressBar">
-                            <div class="percentagem" style="width: 96%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="candidatos">
-                    <div class="parcial">
-                        <div class="info">
-                            <div class="nome">LaTeX</div>
-                            <div class="percentagem-num">86%</div>
-                        </div>
-                        <div class="progressBar">
-                            <div class="percentagem" style="width: 86%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="candidatos">
-                    <div class="parcial">
-                        <div class="info">
-                            <div class="nome">Shell Script</div>
-                            <div class="percentagem-num">50%</div>
-                        </div>
-                        <div class="progressBar">
-                            <div class="percentagem" style="width: 50%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="candidatos">
-                    <div class="parcial">
-                        <div class="info">
-                            <div class="nome">Front-End</div>
-                            <div class="percentagem-num">10%</div>
-                        </div>
-                        <div class="progressBar">
-                            <div class="percentagem" style="width: 10%;"></div>
-                        </div>
-                    </div>
-                </div>                                    
-                <div class="candidatos">
-                    <div class="parcial">
-                        <div class="info">
-                            <div class="nome">Javascript</div>
-                            <div class="percentagem-num">5%</div>
-                        </div>
-                        <div class="progressBar">
-                            <div class="percentagem" style="width: 5%;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>        
-        </div>
         <div class="col-sm-6">
             <h2> Pares de Galaxias </h2>
             <p> 
-                El estudio de pares de galaxias es crucial en la comprensión de la estructura a gran escala del Universo. Aunque las galaxias suelen encontrarse en grupos y cúmulos, la interacción más "pequeña" a escala cósmica se da entre pares de galaxias. A través de observaciones y catálogos como el SDSS y el RASS, así como simulaciones computacionales como Millenium, EAGLE, Illustris y TNG-Project, se investiga la dinámica y encuentros entre estas parejas. Un catálogo de pares de galaxias de Rodriguez et al. (2020), basado en datos del SDSS, contiene 8182 sistemas con mediciones de corrimiento al rojo, donde se consideran criterios de aislamiento respecto a otros objetos. La clasificación de estos pares puede consultarse en el artículo de William C. Keel et al. (2013). </p>
+                El estudio de pares de galaxias es crucial en la comprensión de la estructura a gran escala del Universo. 
+                Aunque las galaxias suelen encontrarse en grupos y cúmulos, la interacción más "pequeña" a escala cósmica 
+                se da entre pares de galaxias. A través de observaciones y catálogos como el SDSS y el RASS, así como simulaciones
+                 computacionales como Millenium, EAGLE, Illustris y TNG-Project, se investiga la dinámica y encuentros entre estas parejas. 
+                 Un catálogo de pares de galaxias de Rodriguez et al. (2020), basado en datos del SDSS, 
+                 contiene 8182 sistemas con mediciones de corrimiento al rojo, donde se consideran criterios de aislamiento respecto 
+                 a otros objetos. La clasificación de estos pares puede consultarse en el artículo de William C. Keel et al. (2013). </p>
+        </div>
+
+</section>
+
+<!-- Seccion Alcance -->
+<section id="Alcance" class="section_info container-fluid">
+    <div class="container-fluid col-sm-12"> 
+        <h2> Alcance </h2>
+        <h4> Parte del Programa de Ciencia Ciudadana Nacional</h4>
+        <p> Desde el Ministerio de Ciencia, Tecnología e Innovación junto con el Laboratorio de Aceleración del Programa de las Naciones Unidas
+            co-crearon el Desarrollo (PNUD) en Argentina un mapeo de iniciativas nacionales de Ciencia Ciudadana que pone en valor proyectos que
+             desarrollaron herramientas para problematizar, medir y actuar sobre diversos tipos de fenómenos, e identificar 
+             soluciones para abordarlos. PISCIS a partir del 2023 inicio a ser parte de este programa https://www.argentina.gob.ar/ciencia/sact/ciencia-ciudadana/programa-de-ciencia-ciudadana.</p>
+            
+    </div>
+</section>
+
+<!-- Seccion Publicaciones -->
+<section id="Publicaciones" class="section_info container-fluid">
+    <div class="container-fluid col-sm-12"> 
+        <h2> Publicaciones </h2>
+            
+    </div>
+</section>
+
+<!-- Seccion Charlas y Seminarios -->
+<section id="Charlas y Seminarios" class="section_info container-fluid">
+    <div class="container-fluid col-sm-12"> 
+        <h2> Charlas y Seminarios </h2>
+            
+    </div>
+</section>
+
+<!-- Notas de prensa -->
+<section id="Notas de prensa" class="section_info container-fluid">
+    <div class="container-fluid col-sm-12"> 
+        <h2> Notas de prensa </h2>
+            
+    </div>
+</section>
+
+<section id="Miembros" class="section_info container-fluid">
+    <div class="container-fluid col-sm-12"> 
+        <h2> Miembros </h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="img/miembro1.jpg" alt="Miembro 1" class="member-img">
+                <p>Becaria Doctoral</p>
+                <p>Temas: Astronomía Galáctica y Extragaláctica</p>
+                <p>vanessa.daza@unc.edu.ar</p>
+            </div>
+            <div class="col-sm-6">
+                <img src="img/miembro2.jpeg" alt="Miembro 2" class="member-img">
+                <p>Becario Pos-Doctoral </p>
+                <p>Temas: Estructura en Gran Escala del Universo</p>
+                <p>german.alfaro@unc.edu.ar</p>
+            </div>
         </div>
     </div>
 </section>
-<!-- ultima seccion contacto -->
+
+
+<!-- Seccion contacto -->
 <section id="contacto" class="section_info container-fluid">
     <div class="container-fluid col-sm-12"> 
         <h2> Contacto </h2>
@@ -187,6 +201,17 @@
         </form>
     </div>
 </section>
+
+
+<!-- ultima seccion Afilicianos -->
+<section id="Afilasiones" class="section_info container-fluid">
+    <div class="container-fluid col-sm-12"> 
+        <a href="https://iate.oac.uncor.edu/">
+            <img src="img/IATE-01.png" alt="IATE" style="display: block; margin: 0 auto;">
+        </a>
+    </div>
+</section>
+
 
 
 <script src="js/index.js"></script>
