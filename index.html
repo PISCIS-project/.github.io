@@ -5,48 +5,13 @@
         border-radius: 50%; /* Forma circular */
         object-fit: cover; /* Para que la imagen se ajuste al contenedor sin perder la proporción */
     }
+
+    p1.event-description {
+    opacity: 0.5;
+    font-size: 12px; /* Tamaño de letra más pequeño */
+}
 </style>
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-    }
-
-    .container {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .content {
-        border: 1px solid #ddd;
-        padding: 10px;
-        width: 30%;
-        margin: 10px;
-    }
-
-    h4 {
-        margin-bottom: 10px;
-    }
-
-    li {
-        list-style-type: none;
-        margin-bottom: 5px;
-    }
-
-    p {
-        opacity: 0.5;
-        margin-bottom: 10px;
-    }
-
-    a {
-        text-decoration: none;
-        color: #007bff;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -116,7 +81,7 @@
 
                 Imagina explorar cualquier tipo de imágenes y participar en la clasificación de datos reales de una manera fácil y entretenida. Con nuestra aplicación, no solo tendrás acceso a una poderosa herramienta web, que maximizará el alcance de tu proyecto, sino que también te unirás a una comunidad apasionada por la ciencia y la investigación.
                 
-                ¿Listo para sumergirte en el mundo de la ciencia ciudadana? ¡Estás en el lugar correcto! Explora nuestra completa documentación para comenzar tu viaje de descubrimiento científico. Y si estás listo para llevar tus investigaciones al siguiente nivel, ¡no dudes en ponerte en contacto con nuestro equipo!</p>
+                ¿Con ganas de sumergirte en el mundo de la ciencia ciudadana? ¡Estás en el lugar correcto! Explora nuestra completa documentación para comenzar tu viaje de descubrimiento científico. Y si quieres llevar tus investigaciones al siguiente nivel, ¡no dudes en ponerte en contacto con nuestro equipo!</p>
             </div>
         </div>
     </div>
@@ -184,89 +149,90 @@
     <p> </p>
 </div>
 
-<div class="container">
-    <div class="content">
+<div class="container-fluid"> </div>
+    <div class="col-sm-6">
                     <h4>Publicaciones</h4>
                     <ul>
                         <li>
                             <strong>10/2020</strong> - <a href="http://www.astronomiaargentina.org.ar/uploads/docs/craaa62.pdf" target="_blank">Publicación sin referato en libro de Resúmenes</a>
-                            <p>
+                            <p1 class="event-description">
                                 62ª Reunión anual de la Asociación Argentina de Astronomía en formato webinar. Co-organizada por la facultad de Ciencias Exactas, Ingeniería Agrimensura dependiente de la Universidad Nacional de Rosario y el Complejo Astronómico Municipal dependiente de la Secretaría de Cultura y Educación de la Municipalidad de Rosario. Miembros: I.V. Daza-Perilla, I. G. Alfaro, J. A. Benavides, M. Lares, M. V. Santucho, J. B. Cabral, A. L. O’Mill, F. Rodriguez, & M. Koraj.
-                            </p>
+                            </p1>
                         </li>
                         <li>
                             <strong>09/2021</strong> - <a href="http://cienciaciudadana.cl/wp-content/uploads/2021/05/Libro-Resumen-Congreso-Ciencia-Ciudadana-2021.pdf" target="_blank">Publicación sin referato en libro de Resúmenes</a>
-                            <p>
+                            <p1 class="event-description">
                                 Congreso Ciencia Ciudadana Chile 2021. A cargo de: I.V. Daza-Perilla
-                            </p>
+                            </p1>
                         </li>
                         <li>
                             <strong>03/2023</strong> - <a href="https://revistas.uautonoma.cl/index.php/scr/article/view/2134" target="_blank">Publicación con referato</a>
-                            <p>
+                            <p1 class="event-description">
                                 Revista SciComm Report, (SciComm rep.) SciComm Report 2023-04-25 | Journal article DOI: 10.32457/scr.v3i1.2134 CONTRIBUTORS: Germán Alfaro; Ingrid Vanessa Daza Perilla; José Benavides Blanco; Marcelo Lares; Victoria Santucho; Juan Cabral; Ana Laura O’mill; Facundo Rodríguez; Mauricio Koraj
-                            </p>
+                            </p1>
                         </li>
                     </ul>
-                </div>
-                <div class="content">
+    </div>          
+    <div class="section_home container-fluid">
                     <h4>Charlas, Seminarios y Presentaciones Mural</h4>
                     <ul>
                         <li>
                             <strong>10/2020</strong> - <a href="https://drive.google.com/file/d/1sks0NoWavlTlc1Rg4XJt9Rp4ov9KBdpp/view" target="_blank">Presentación Mural en el eje de Historia, Enseñanza Y Divulgación de Astronomía</a>
-                            <p>
+                            <p1  class="event-description">
                                 62ª Reunión anual de la Asociación Argentina de Astronomía en formato webinar. Co-organizada por la facultad de Ciencias Exactas, Ingeniería Agrimensura dependiente de la Universidad Nacional de Rosario y el Complejo Astronómico Municipal dependiente de la Secretaría de Cultura y Educación de la Municipalidad de Rosario. Miembros: I.V. Daza-Perilla, I. G. Alfaro, J. A. Benavides, M. Lares, M. V. Santucho, J. B. Cabral, A. L. O’Mill, F. Rodriguez, & M. Koraj.
-                            </p>
+                            </p1>
                         </li>
                         <li>
                             <strong>04/2021</strong> - <a href="http://fof.oac.uncor.edu/2021/posters/" target="_blank">Presentación Mural</a>
-                            <p>
+                            <p1 class="event-description">
                                 XI Friends of Friends Meeting Linking astronomy and friends in Córdoba Presentado por: I. G. Alfaro
-                            </p>
+                            </p1>
                         </li>
                         <li>
                             <strong>09/2021</strong> - <a href="https://cienciaciudadana.cl/congreso2021/" target="_blank">Presentación Oral en la categoría de Tecnología y Datos</a>
-                            <p>
+                            <p1 class="event-description">
                                 Congreso Ciencia Ciudadana Chile 2021. A cargo de: I.V. Daza-Perilla
-                            </p>
+                            </p1>
                         </li>
                         <li>
                             <strong>11/2021</strong> - <a href="https://satec.iate.conicet.unc.edu.ar/ https://www.youtube.com/watch?v=2oFTPbTWq4E&t=86s&ab_channel=OACSeminarios" target="_blank">Presentación Oral</a>
-                            <p>
+                            <p1 class="event-description">
                                 El Workshop Scientific And Technical Exchange Conferences (SATEC), realizado los días 17 y 24 de noviembre y 1 de diciembre del 2021 A cargo de: I. G. Alfaro
-                            </p>
+                            </p1>
                         </li>
                     </ul>
-                </div>
-                <div class="content">
+    </div>
+    <div class="col-sm-6">
                     <h4>Notas de Prensa y Difusión</h4>
                     <ul>
                         <li>
                             <strong>06/2021</strong> - <a href="https://iate.oac.uncor.edu/2021/06/16/piscis-una-herramienta-de-ciencia-ciudadana-para-analizar-imagenes-astronomicas/" target="_blank">Entrevista ‘’PISCIS: una herramienta de ciencia ciudadana para analizar imágenes astronómicas’’</a>
-                            <p>
+                            <p1 class="event-description">
                                 Nota de periodismo científico para la página del Instituto de Astronomía Teórica y Experimental (IATE). A cargo de: I.V. Daza-Perilla, I. G. Alfaro, J. A. Benavides y M. Lares
-                            </p>
+                            </p1>
                         </li>
                         <li>
                             <strong>06/2021</strong> - <a href="https://periferia.com.ar/investigacion/c-rdoba-desarrollan-una-herramienta-de-ciencia-ciudadana-para-analizar-im-genes-astron-micas/" target="_blank">Entrevista ‘’Córdoba: desarrollan una herramienta de ciencia ciudadana para analizar imágenes astronómicas’’</a>
-                            <p>
+                            <p1 class="event-description">
                                 Nota de periodismo científico para PERIFERIA un portal periodístico independiente sobre ciencia y tecnología en Argentina y América latina. A cargo de: I.V. Daza-Perilla, I. G. Alfaro J. A. Benavides y M. Lares
-                            </p>
+                            </p1>
                         </li>
                         <li>
                             <strong>06/2021</strong> - <a href="https://www.ivoox.com/lunas-de-saturno-capitulo-27-audios-mp3_rf_72234578_1.html" target="_blank">Entrevista ‘’proyecto Piscis de Ciencia Ciudadana.’’</a>
-                            <p>
+                            <p1 class="event-description">
                                 Lunas de Saturno es un podcast sobre astronomía abordada desde diferentes perspectivas - Capítulo 27 (Emisora radio bicicleta) A cargo de: I.V. Daza-Perilla
-                            </p>
+                            </p1>
                         </li>
                         <li>
                             <strong>06/2022</strong> - <a href="https://planetario.buenosaires.gob.ar/piscis-ciencia-ciudadana-en-astronomia" target="_blank">Charla invitada</a>
-                            <p>
+                            <p1 class="event-description">
                                 Encuentros de Ciencia - Planetario Galileo Galilei. A cargo de: I.V. Daza-Perilla y I. G. Alfaro
-                            </p>
+                            </p1>
                         </li>
                     </ul>
-                </div>
-            </div> 
+
+            </div>
+        </div>     
 </section>
 
 
