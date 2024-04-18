@@ -382,7 +382,12 @@ button {
         border: 1px solid #ccc;
         border-radius: 1em;
     }
-      
+
+    /* Estilo para hacer responsive el iframe */
+    .section_info .container-fluid .col-md-6 iframe {
+      width: 90%;
+      height: 200px; /* Ajusta la altura según tus necesidades */
+  }
     
     label {
         /* To make sure that all labels have the same size and are properly aligned */
@@ -426,5 +431,8 @@ button {
         background-color: teal; /* #034574;*/
     }
     /*fin formulario*/
+
+
+
 
 }
