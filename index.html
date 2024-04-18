@@ -7,7 +7,46 @@
     }
 </style>
 
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
 
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .content {
+        border: 1px solid #ddd;
+        padding: 10px;
+        width: 30%;
+        margin: 10px;
+    }
+
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    li {
+        list-style-type: none;
+        margin-bottom: 5px;
+    }
+
+    p {
+        opacity: 0.5;
+        margin-bottom: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #007bff;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -51,6 +90,9 @@
               <a href="#proyectos" class="mi-nav-menu-link mi-nav-link ancla"><i class="fa-solid fa-school"></i> Proyectos </a>
             </li>
             <li class="mi-nav-menu-item">                
+                <a href="#alcance" class="mi-nav-menu-link mi-nav-link ancla"><i class="fa-solid fa-earth"></i> Alcance</a>
+              </li>
+            <li class="mi-nav-menu-item">                
               <a href="#contacto" class="mi-nav-menu-link mi-nav-link mi-nav-menu-link_active ancla"><i class="fa-solid fa-messages"></i> contacto</a>
             </li>
           </ul>
@@ -70,12 +112,11 @@
             <h1>PISCIS</h1>
             <h4>Plataform for Interactive Search and CItizen Science</h4>
             <div class="menu">
-            <p> La aplicación es construida sobre Django, un framework web de Python de uso libre 
-                para el desarrollo de páginas web. El objetivo de este proyecto es brindar una herramienta
-                 a la comunidad científica que facilite el proceso de generación de datos a partir de un 
-                 conjunto imágenes acompañadas de una encuesta para el uso de ciencia ciudadana.
+            <p> ¡Bienvenido/a! Aquí en PISCIS, hemos creado una plataforma digital innovadora basada en Django, el framework web de Python más avanzado, para simplificar todo el proceso de generación y análisis de datos a través de encuestas de ciencia ciudadana.
+
+                Imagina explorar cualquier tipo de imágenes y participar en la clasificación de datos reales de una manera fácil y entretenida. Con nuestra aplicación, no solo tendrás acceso a una poderosa herramienta web, que maximizará el alcance de tu proyecto, sino que también te unirás a una comunidad apasionada por la ciencia y la investigación.
                 
-                Puedes acceder a toda al documentación del proyecto PISCIS en nuestro github aquí. </p>
+                ¿Listo para sumergirte en el mundo de la ciencia ciudadana? ¡Estás en el lugar correcto! Explora nuestra completa documentación para comenzar tu viaje de descubrimiento científico. Y si estás listo para llevar tus investigaciones al siguiente nivel, ¡no dudes en ponerte en contacto con nuestro equipo!</p>
             </div>
         </div>
     </div>
@@ -100,20 +141,25 @@
                     <a href="https://piscis.readthedocs.io/en/latest/configure/models.html"target="_blank">Read the Docs></a>
                 </li>
                 <li>
-                    <i class="fas fa-file"></i>
-                    <a href="https://piscis.readthedocs.io/en/latest/configure/models.html"target="_blank">Video Demo></a>
+                    <i class="fas fa-youtube"></i>
+                    <a href="https://www.youtube.com/watch?v=CsaXcQoBt_M&ab_channel=IGNACIOGERM%C3%81NALFARO"target="_blank">Video Demo></a>
                 </li>                         
             </ul>
         </div>
         <div class="col-md-6">
-            <img src="img/readthedocs.png" class="conborde img-home" alt="libros, pizarra, laptop"/>     
+            <!--img src="img/readthedocs.png" class="conborde img-home" alt="libros, pizarra, laptop"/-->     
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CsaXcQoBt_M" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </section>
 <!-- tercera seccion -->
-<section id="proyectos" class="section_info container-fluid"> 
+
+<section id="proyectos" class="section_info container-fluid">
+    <div class="container-fluid"> </div>
         <div class="col-sm-6">
-            <h2> Pares de Galaxias </h2>
+            <h2> Proyectos </h2>
+            <h4><a href="https://paresdegalaxias.iate.conicet.unc.edu.ar/">Pares de galaxias</a></h4>
+            
             <p> 
                 El estudio de pares de galaxias es crucial en la comprensión de la estructura a gran escala del Universo. 
                 Aunque las galaxias suelen encontrarse en grupos y cúmulos, la interacción más "pequeña" a escala cósmica 
@@ -123,138 +169,107 @@
                  contiene 8182 sistemas con mediciones de corrimiento al rojo, donde se consideran criterios de aislamiento respecto 
                  a otros objetos. La clasificación de estos pares puede consultarse en el artículo de William C. Keel et al. (2013). </p>
         </div>
-
+    
 </section>
 
 <!-- Seccion Alcance --> <!-- Seccion Publicaciones -->
-<section id="Alcance" class="section_info container-fluid">
-    <div class="container-fluid col-sm-12"> 
-        <h2 text-align="center"> Alcance </h2>
-        <h4> Parte del Programa de Ciencia Ciudadana Nacional</h4>
-        <p> Desde el Ministerio de Ciencia, Tecnología e Innovación junto con el Laboratorio de Aceleración del Programa de las Naciones Unidas
-            co-crearon el Desarrollo (PNUD) en Argentina un mapeo de iniciativas nacionales de Ciencia Ciudadana que pone en valor proyectos que
-             desarrollaron herramientas para problematizar, medir y actuar sobre diversos tipos de fenómenos, e identificar 
-             soluciones para abordarlos. PISCIS a partir del 2023 inicio a ser parte de este programa https://www.argentina.gob.ar/ciencia/sact/ciencia-ciudadana/programa-de-ciencia-ciudadana.</p>
-            
-    </div>
+<section id="alcance" class="section_info container-fluid">
+    <h2> Alcance </h2>
+</section>
+<div style="text-align:center;">
+    <h4>Parte del Programa de Ciencia Ciudadana Nacional</h4>
+    <p style="max-width: 600px; margin: 0 auto;">Desde el Ministerio de Ciencia, Tecnología e Innovación junto con el Laboratorio de Aceleración del Programa de las Naciones Unidas co-crearon el Desarrollo (PNUD) en Argentina un mapeo de iniciativas nacionales de Ciencia Ciudadana que pone en valor proyectos que desarrollaron herramientas para problematizar, medir y actuar sobre diversos tipos de fenómenos, e identificar soluciones para abordarlos. PISCIS a partir del 2023 inicio a ser parte de este programa <a href="https://www.argentina.gob.ar/ciencia/sact/ciencia-ciudadana/programa-de-ciencia-ciudadana">aquí</a>.</p>
+</div>
+<div style="text-align:center;">
+    <p> </p>
+</div>
+
+<div class="container">
+    <div class="content">
+                    <h4>Publicaciones</h4>
+                    <ul>
+                        <li>
+                            <strong>10/2020</strong> - <a href="http://www.astronomiaargentina.org.ar/uploads/docs/craaa62.pdf" target="_blank">Publicación sin referato en libro de Resúmenes</a>
+                            <p>
+                                62ª Reunión anual de la Asociación Argentina de Astronomía en formato webinar. Co-organizada por la facultad de Ciencias Exactas, Ingeniería Agrimensura dependiente de la Universidad Nacional de Rosario y el Complejo Astronómico Municipal dependiente de la Secretaría de Cultura y Educación de la Municipalidad de Rosario. Miembros: I.V. Daza-Perilla, I. G. Alfaro, J. A. Benavides, M. Lares, M. V. Santucho, J. B. Cabral, A. L. O’Mill, F. Rodriguez, & M. Koraj.
+                            </p>
+                        </li>
+                        <li>
+                            <strong>09/2021</strong> - <a href="http://cienciaciudadana.cl/wp-content/uploads/2021/05/Libro-Resumen-Congreso-Ciencia-Ciudadana-2021.pdf" target="_blank">Publicación sin referato en libro de Resúmenes</a>
+                            <p>
+                                Congreso Ciencia Ciudadana Chile 2021. A cargo de: I.V. Daza-Perilla
+                            </p>
+                        </li>
+                        <li>
+                            <strong>03/2023</strong> - <a href="https://revistas.uautonoma.cl/index.php/scr/article/view/2134" target="_blank">Publicación con referato</a>
+                            <p>
+                                Revista SciComm Report, (SciComm rep.) SciComm Report 2023-04-25 | Journal article DOI: 10.32457/scr.v3i1.2134 CONTRIBUTORS: Germán Alfaro; Ingrid Vanessa Daza Perilla; José Benavides Blanco; Marcelo Lares; Victoria Santucho; Juan Cabral; Ana Laura O’mill; Facundo Rodríguez; Mauricio Koraj
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <h4>Charlas, Seminarios y Presentaciones Mural</h4>
+                    <ul>
+                        <li>
+                            <strong>10/2020</strong> - <a href="https://drive.google.com/file/d/1sks0NoWavlTlc1Rg4XJt9Rp4ov9KBdpp/view" target="_blank">Presentación Mural en el eje de Historia, Enseñanza Y Divulgación de Astronomía</a>
+                            <p>
+                                62ª Reunión anual de la Asociación Argentina de Astronomía en formato webinar. Co-organizada por la facultad de Ciencias Exactas, Ingeniería Agrimensura dependiente de la Universidad Nacional de Rosario y el Complejo Astronómico Municipal dependiente de la Secretaría de Cultura y Educación de la Municipalidad de Rosario. Miembros: I.V. Daza-Perilla, I. G. Alfaro, J. A. Benavides, M. Lares, M. V. Santucho, J. B. Cabral, A. L. O’Mill, F. Rodriguez, & M. Koraj.
+                            </p>
+                        </li>
+                        <li>
+                            <strong>04/2021</strong> - <a href="http://fof.oac.uncor.edu/2021/posters/" target="_blank">Presentación Mural</a>
+                            <p>
+                                XI Friends of Friends Meeting Linking astronomy and friends in Córdoba Presentado por: I. G. Alfaro
+                            </p>
+                        </li>
+                        <li>
+                            <strong>09/2021</strong> - <a href="https://cienciaciudadana.cl/congreso2021/" target="_blank">Presentación Oral en la categoría de Tecnología y Datos</a>
+                            <p>
+                                Congreso Ciencia Ciudadana Chile 2021. A cargo de: I.V. Daza-Perilla
+                            </p>
+                        </li>
+                        <li>
+                            <strong>11/2021</strong> - <a href="https://satec.iate.conicet.unc.edu.ar/ https://www.youtube.com/watch?v=2oFTPbTWq4E&t=86s&ab_channel=OACSeminarios" target="_blank">Presentación Oral</a>
+                            <p>
+                                El Workshop Scientific And Technical Exchange Conferences (SATEC), realizado los días 17 y 24 de noviembre y 1 de diciembre del 2021 A cargo de: I. G. Alfaro
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <h4>Notas de Prensa y Difusión</h4>
+                    <ul>
+                        <li>
+                            <strong>06/2021</strong> - <a href="https://iate.oac.uncor.edu/2021/06/16/piscis-una-herramienta-de-ciencia-ciudadana-para-analizar-imagenes-astronomicas/" target="_blank">Entrevista ‘’PISCIS: una herramienta de ciencia ciudadana para analizar imágenes astronómicas’’</a>
+                            <p>
+                                Nota de periodismo científico para la página del Instituto de Astronomía Teórica y Experimental (IATE). A cargo de: I.V. Daza-Perilla, I. G. Alfaro, J. A. Benavides y M. Lares
+                            </p>
+                        </li>
+                        <li>
+                            <strong>06/2021</strong> - <a href="https://periferia.com.ar/investigacion/c-rdoba-desarrollan-una-herramienta-de-ciencia-ciudadana-para-analizar-im-genes-astron-micas/" target="_blank">Entrevista ‘’Córdoba: desarrollan una herramienta de ciencia ciudadana para analizar imágenes astronómicas’’</a>
+                            <p>
+                                Nota de periodismo científico para PERIFERIA un portal periodístico independiente sobre ciencia y tecnología en Argentina y América latina. A cargo de: I.V. Daza-Perilla, I. G. Alfaro J. A. Benavides y M. Lares
+                            </p>
+                        </li>
+                        <li>
+                            <strong>06/2021</strong> - <a href="https://www.ivoox.com/lunas-de-saturno-capitulo-27-audios-mp3_rf_72234578_1.html" target="_blank">Entrevista ‘’proyecto Piscis de Ciencia Ciudadana.’’</a>
+                            <p>
+                                Lunas de Saturno es un podcast sobre astronomía abordada desde diferentes perspectivas - Capítulo 27 (Emisora radio bicicleta) A cargo de: I.V. Daza-Perilla
+                            </p>
+                        </li>
+                        <li>
+                            <strong>06/2022</strong> - <a href="https://planetario.buenosaires.gob.ar/piscis-ciencia-ciudadana-en-astronomia" target="_blank">Charla invitada</a>
+                            <p>
+                                Encuentros de Ciencia - Planetario Galileo Galilei. A cargo de: I.V. Daza-Perilla y I. G. Alfaro
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
 </section>
 
 
-<section id="Publicaciones" class="section_info container-fluid">
-    <div class="container-fluid col-sm-12"> 
-        <h4> Publicaciones </h4>
-        10/2020
-        <li> 
-            <a href="http://www.astronomiaargentina.org.ar/uploads/docs/craaa62.pdf"target="_blank">
-            Publicación sin referato en libro de Resúmenes></a>
-        </li>
-        <li> 
-            <a href="http://astronomiaargentina.fcaglp.unlp.edu.ar/b62/2021BAAA...62..310D.pdf"target="_blank">
-            Publicación con referato></a>
-        </li>
-        <p style="opacity: 0.5;"> 62ª Reunión anual de la Asociación Argentina de Astronomía en formato webinar’’.
-            Co-organizada por la facultad de Ciencias Exactas, Ingeniería Agrimensura dependiente 
-            de la Universidad Nacional de Rosario y el Complejo Astronómico Municipal dependiente
-             de la Secretaría de Cultura y Educación de la Municipalidad de Rosario.
-            Miembros: I.V. Daza-Perilla, I. G. Alfaro, J. A. Benavides, M. Lares, M. V. 
-            Santucho, J. B. Cabral, A. L. O’Mill, F. Rodriguez, & M. Koraj. </p>
-        09/2021
-        <li>
-            <a href="http://cienciaciudadana.cl/wp-content/uploads/2021/05/Libro-Resumen-Congreso-Ciencia-Ciudadana-2021.pdf"target="_blank">
-                Publicación sin referato en libro de Resúmenes</a>
-        </li>
-        <p style="opacity: 0.5;">Congreso Ciencia Ciudadana Chile 2021. 
-            A cargo de: I.V. Daza-Perilla</p> 
-        03/2023
-        <li>
-            <a href="https://revistas.uautonoma.cl/index.php/scr/article/view/2134"target="_blank">
-                Publicación con referato</a>
-            </li>
-            <p style="opacity: 0.5;">Revista SciComm Report, (SciComm rep.)
-                SciComm Report
-                2023-04-25 | Journal article
-                DOI: 10.32457/scr.v3i1.2134
-                CONTRIBUTORS: Germán Alfaro; Ingrid Vanessa Daza Perilla; José Benavides Blanco;
-                 Marcelo Lares; Victoria Santucho; Juan Cabral; Ana Laura O’mill; Facundo Rodríguez; Mauricio Koraj
-            </p>
-    </div>
-</section>
-
-<!-- Seccion Charlas y Seminarios -->
-<section id="Charlas y Seminarios" class="section_info container-fluid">
-    <div class="container-fluid col-sm-12"> 
-        <h4> Charlas, Seminarios y Presentaciones Mural</h4>
-        10/2020
-        <li>
-            <a href="https://drive.google.com/file/d/1sks0NoWavlTlc1Rg4XJt9Rp4ov9KBdpp/view"target="_blank">
-            Presentación Mural en el eje de Historia, Enseñanza Y Divulgación de Astronomía</a>
-        </li>
-        <p style="opacity: 0.5;"> 62ª Reunión anual de la Asociación Argentina de Astronomía en formato webinar’’.
-            Co-organizada por la facultad de Ciencias Exactas, Ingeniería Agrimensura dependiente 
-            de la Universidad Nacional de Rosario y el Complejo Astronómico Municipal dependiente
-             de la Secretaría de Cultura y Educación de la Municipalidad de Rosario.
-            Miembros: I.V. Daza-Perilla, I. G. Alfaro, J. A. Benavides, M. Lares, M. V. 
-            Santucho, J. B. Cabral, A. L. O’Mill, F. Rodriguez, & M. Koraj. </p>
-        04/2021
-        <li>
-            <a href="http://fof.oac.uncor.edu/2021/posters/"target="_blank">
-            Presentación Mural</a>
-        </li>
-        <p style="opacity: 0.5;">XI Friends of Friends Meeting Linking astronomy and friends in Córdoba
-            Presentado por: I. G. Alfaro </p>
-        09/2021
-        <li>
-            <a href="https://cienciaciudadana.cl/congreso2021/"target="_blank">
-            Presentación Oral en la categoría de Tecnología y Datos.</a>
-        </li>
-        <p style="opacity: 0.5;">Congreso Ciencia Ciudadana Chile 2021. 
-            A cargo de: I.V. Daza-Perilla</p>
-        11/2021
-        <li>
-            <a href="https://satec.iate.conicet.unc.edu.ar/
-                https://www.youtube.com/watch?v=2oFTPbTWq4E&t=86s&ab_channel=OACSeminarios
-                "target="_blank">
-                Presentación Oral</a>
-        </li>
-        <p style="opacity: 0.5;">El Workshop Scientific And Technical Exchange Conferences (SATEC),
-                 realizado los días 17 y 24 de noviembre y 1 de diciembre del 2021
-                A cargo de: I. G. Alfaro</p> 
-    </div>
-</section>
-
-<!-- Notas de prensa -->
-<section id="Notas de prensa" class="section_info container-fluid">
-    <div class="container-fluid col-sm-12"> 
-        <h4> Notas de prensay Difusión </h4>
-        06/2021
-        <li>
-            <a href="https://iate.oac.uncor.edu/2021/06/16/piscis-una-herramienta-de-ciencia-ciudadana-para-analizar-imagenes-astronomicas/"target="_blank">
-                Entrevista ‘’PISCIS: una herramienta de ciencia ciudadana para analizar imágenes astronómicas’’</a>
-        </li>
-        <p style="opacity: 0.5;">Nota de periodismo científico para la página del Instituto de Astronomía Teórica y Experimental (IATE).
-            A cargo de: I.V. Daza-Perilla, I. G. Alfaro, J. A. Benavides y M. Lares</p>
-
-        <li>
-            <a href="https://periferia.com.ar/investigacion/c-rdoba-desarrollan-una-herramienta-de-ciencia-ciudadana-para-analizar-im-genes-astron-micas/"target="_blank">
-                Entrevista ‘’Córdoba: desarrollan una herramienta de ciencia ciudadana para analizar imágenes astronómicas’’</a>
-        </li>
-        <p style="opacity: 0.5;">Nota de periodismo científico para PERIFERIA un portal periodístico independiente sobre ciencia 
-            y tecnología en Argentina y América latina. A cargo de: I.V. Daza-Perilla, I. G. Alfaro  J. A. Benavides y M. Lares</p>
-        <li>
-            <a href="https://www.ivoox.com/lunas-de-saturno-capitulo-27-audios-mp3_rf_72234578_1.html"target="_blank">
-                Entrevista ‘’proyecto Piscis de Ciencia Ciudadana.’’</a>
-        </li>
-        <p style="opacity: 0.5;">Lunas de Saturno es un podcast sobre astronomía abordada desde diferentes perspectivas
-             - Capítulo 27 (Emisora radio bicicleta) A cargo de: I.V. Daza-Perilla</p>
-        06/2022
-        <li>
-            <a href="https://planetario.buenosaires.gob.ar/piscis-ciencia-ciudadana-en-astronomia"target="_blank">
-                Charla invitada</a>
-        </li>
-        <p style="opacity: 0.5;">Encuentros de Ciencia - Planetario Galileo Galilei.
-            A cargo de: I.V. Daza-Perilla y  I. G. Alfaro</p>            
-    </div>
-</section>
 
 <section id="Miembros" class="section_info container-fluid">
     <div class="container-fluid col-sm-12"> 
@@ -275,7 +290,7 @@
                 <a href="https://github.com/geralfaro">Github</a>
             </div>
         </div>
-    </div>
+
 </section>
 
 
@@ -283,22 +298,24 @@
 <section id="contacto" class="section_info container-fluid">
     <div class="container-fluid col-sm-12"> 
         <h2> Contacto </h2>
-        <form action="" method="get">
+        <!--form action="" method="get" FORMA ORIGINAL-->
+        <form action="enviar_email.php" method="post">
+
         <div>
             <label>Nombre</label>
-            <input type="text" name="nombre" placeholder="Ingrese solo su nombre de pila" required/>
+            <input type="text" name="nombre" placeholder="Ingrese solo su nombre de pila" required style="color: black;"/>
         </div>
         <div>
             <label>Apellido</label>
-            <input type="text" name="apellido" placeholder="Ingrese su apellido" required/>
+            <input type="text" name="apellido" placeholder="Ingrese su apellido" required style="color: black;"/>
         </div>
         <div>
             <label>e-mail</label>
-            <input type="email" name="email" placeholder="Ingrese un e-mail" required/>
+            <input type="email" name="email" placeholder="Ingrese un e-mail" required style="color: black;"/>
         </div>
         <div>
             <label>mensaje</label>
-            <textarea name="mensaje" placeholder="Escriba su mensaje" required></textarea>
+            <textarea name="mensaje" placeholder="Escriba su mensaje" required style="color: black;"></textarea>
         </div>
         <button type="submit">Envíe su mensaje</button>
         </form>
